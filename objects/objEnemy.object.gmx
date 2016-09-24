@@ -26,8 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>///enemy moves toward player
-randx = random(room_width);
-randy = random(room_height);
 if distance_to_object(objPlayer) &lt;= 200
 {
      mp_potential_step(objPlayer.x, objPlayer.y, 4, false);
@@ -35,15 +33,16 @@ if distance_to_object(objPlayer) &lt;= 200
 
 else
 {
-    if(distance_to_point(randx, randy) &lt;= 1)
-    {
-       randx = random(room_width);
-       randy = random(room_height);
-    }
-    else
-    {
-        mp_potential_step(randx, randy, 4, false);
-    }
+   if(distance_to_point(608,448) == 0)
+   {
+    path_start(pthEnemy, 4, path_action_continue, true);
+   }
+   
+   
+else
+   {
+    mp_potential_step(608,448, 4, false);
+   }
 }
 </string>
           </argument>
