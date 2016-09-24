@@ -11,7 +11,9 @@
     <sprite>sprites\sprWall</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pthEnemy</path>
+  </paths>
   <objects name="objects">
     <object>objects\objPlayer</object>
     <object>objects\objEnemy</object>
