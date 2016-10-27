@@ -33,16 +33,7 @@ if distance_to_object(objPlayer) &lt;= 200
 
 else
 {
-   if(distance_to_point(608,448) == 0)
-   {
-    path_start(pthEnemy, 4, path_action_continue, true);
-   }
-   
-   
-else
-   {
     mp_potential_step(608,448, 4, false);
-   }
 }
 </string>
           </argument>
