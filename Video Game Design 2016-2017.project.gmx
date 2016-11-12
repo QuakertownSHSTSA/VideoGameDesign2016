@@ -5,11 +5,21 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\sprCreateButton</sprite>
+    <sprite>sprites\sprLoadButton</sprite>
+    <sprite>sprites\sprExitButton</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <objects name="objects"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <object>objects\objCreateButton</object>
+    <object>objects\objLoadButton</object>
+    <object>objects\objExitButton</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rmMenu</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
