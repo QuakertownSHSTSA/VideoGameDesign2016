@@ -6,33 +6,10 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprCreateButton</sprite>
-    <sprite>sprites\sprLoadButton</sprite>
-    <sprite>sprites\sprExitButton</sprite>
-    <sprite>sprites\SideOne</sprite>
-    <sprite>sprites\SideTwo</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts">
-    <script>scripts\List_creation.gml</script>
-    <script>scripts\addItem.gml</script>
-  </scripts>
-  <objects name="objects">
-    <object>objects\objCreateButton</object>
-    <object>objects\objLoadButton</object>
-    <object>objects\objExitButton</object>
-    <object>objects\Answers</object>
-    <object>objects\Questons</object>
-  </objects>
-  <timelines name="timelines">
-    <timeline>timelines\es</timeline>
-  </timelines>
-  <rooms name="rooms">
-    <room>rooms\rmMenu</room>
-    <room>rooms\room2</room>
-    <room>rooms\Creation_Room</room>
-  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
