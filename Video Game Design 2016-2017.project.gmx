@@ -6,7 +6,22 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite5</sprite>
+    <sprites name="Robots">
+      <sprite>sprites\sprRobot1Down</sprite>
+      <sprite>sprites\sprRobot2Down</sprite>
+      <sprite>sprites\sprRobot1Up</sprite>
+      <sprite>sprites\sprRobot2Up</sprite>
+      <sprite>sprites\sprRobot1Left</sprite>
+      <sprite>sprites\sprRobot2Left</sprite>
+      <sprite>sprites\sprRobot2Right</sprite>
+      <sprite>sprites\sprRobot1RIght</sprite>
+    </sprites>
+    <sprites name="character">
+      <sprite>sprites\sprCharacter_Male_Down</sprite>
+      <sprite>sprites\sprCharacter_Male_Left</sprite>
+      <sprite>sprites\sprCharacter_Male_right</sprite>
+      <sprite>sprites\sprCharacter_Male_up</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
