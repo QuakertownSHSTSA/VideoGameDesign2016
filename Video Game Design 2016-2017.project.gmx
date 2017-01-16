@@ -22,9 +22,30 @@
       <sprite>sprites\sprCharacter_Male_right</sprite>
       <sprite>sprites\sprCharacter_Male_up</sprite>
     </sprites>
+    <sprites name="Gates">
+      <sprite>sprites\Light_Green</sprite>
+      <sprite>sprites\Light_Red</sprite>
+      <sprite>sprites\sprite13</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Tileset_Lab</background>
+  </backgrounds>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <rooms name="Floor 1">
+      <room>rooms\Room1</room>
+      <room>rooms\Room2</room>
+      <room>rooms\Room3</room>
+      <room>rooms\Room4</room>
+      <room>rooms\Room5</room>
+    </rooms>
+    <rooms name="Floor 2">
+      <room>rooms\F2Room1</room>
+      <room>rooms\F2Room2</room>
+      <room>rooms\F2Room3</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
