@@ -17,9 +17,9 @@
       <sprite>sprites\sprRobot1RIght</sprite>
     </sprites>
     <sprites name="character">
-      <sprite>sprites\sprCharacter_Male_Down</sprite>
+      <sprite>sprites\sprCharacter_Male_Right</sprite>
       <sprite>sprites\sprCharacter_Male_Left</sprite>
-      <sprite>sprites\sprCharacter_Male_right</sprite>
+      <sprite>sprites\sprCharacter_Male_Down</sprite>
       <sprite>sprites\sprCharacter_Male_up</sprite>
     </sprites>
     <sprites name="Gates">
@@ -27,11 +27,25 @@
       <sprite>sprites\Light_Red</sprite>
       <sprite>sprites\sprite13</sprite>
     </sprites>
+    <sprite>sprites\sprAndGate</sprite>
+    <sprite>sprites\sprOrGate</sprite>
+    <sprite>sprites\sprSwitchOn</sprite>
+    <sprite>sprites\sprSwitchOff</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
   </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\objAndGate1</object>
+    <object>objects\objOrGate</object>
+    <object>objects\objLight</object>
+    <object>objects\objSwitch1</object>
+    <object>objects\objSwitch2</object>
+    <object>objects\objSwitch3</object>
+    <object>objects\objSwitch4</object>
+    <object>objects\objPlayer</object>
+  </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
       <room>rooms\Room1</room>
@@ -42,8 +56,20 @@
     </rooms>
     <rooms name="Floor 2">
       <room>rooms\F2Room1</room>
-      <room>rooms\F2Room2</room>
       <room>rooms\F2Room3</room>
+      <room>rooms\F2Room2</room>
+      <room>rooms\F2Room4</room>
+    </rooms>
+    <rooms name="Floor 3">
+      <room>rooms\F3Floor1</room>
+      <room>rooms\F3Room2</room>
+      <room>rooms\F3Room3</room>
+      <room>rooms\F3Room4</room>
+    </rooms>
+    <rooms name="Floor 4">
+      <room>rooms\F4Room1</room>
+      <room>rooms\F4Room2</room>
+      <room>rooms\F4Romm3</room>
     </rooms>
   </rooms>
   <help>
