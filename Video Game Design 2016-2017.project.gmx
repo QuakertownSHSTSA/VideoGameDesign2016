@@ -44,6 +44,8 @@
     <object>objects\objSwitch2</object>
     <object>objects\objSwitch3</object>
     <object>objects\objSwitch4</object>
+    <object>objects\objSwitch5</object>
+    <object>objects\objSwitch6</object>
     <object>objects\objPlayer</object>
   </objects>
   <rooms name="rooms">
