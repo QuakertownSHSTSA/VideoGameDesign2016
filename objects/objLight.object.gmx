@@ -33,8 +33,8 @@ if (objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
-    room_goto(Room2)
-    
+    room_goto(F3Room1)
+    //room_goto(Room2)
 }
 else
 {
@@ -163,7 +163,7 @@ else
 
 break;
 
-case F3Room1://Floor 2 Room 4 
+case F3Room1://Floor 3 Room 1
 objAnswer1.Total=objRes1.resistor
 objAnswer2.Total=objRes1.resistor+objRes2.resistor
 

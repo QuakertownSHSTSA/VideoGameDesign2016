@@ -31,27 +31,27 @@ if keyboard_check_released(vk_space)
 switch(resistor)
 {
     case 5:
-    action_sprite_set(sprResBlue,0,1)
+    action_sprite_set(sprResYellow,0,1)
     resistor=10;
     break;
     
     case 10:
-    action_sprite_set(sprResYellow,0,1)
+    action_sprite_set(sprResGreen,0,1)
     resistor=20;
     break;
     
     case 20:
-    action_sprite_set(sprResGreen,0,1)
+    action_sprite_set(sprResPurple,0,1)
     resistor=30;
     break;
     
     case 30:
-    action_sprite_set(sprResPurple,0,1)
+    action_sprite_set(sprResRed,0,1)
     resistor=50;
     break;
     
     case 50:
-    action_sprite_set(sprResPurple,0,1)
+    action_sprite_set(sprResBlue,0,1)
     resistor=5;
     break;
 }

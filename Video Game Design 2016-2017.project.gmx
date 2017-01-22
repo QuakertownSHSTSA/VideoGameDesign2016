@@ -45,11 +45,15 @@
     <sprite>sprites\sprResGreen</sprite>
     <sprite>sprites\sprResPurple</sprite>
     <sprite>sprites\sprResRed</sprite>
+    <sprite>sprites\sprAnswer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fntArial</font>
+  </fonts>
   <objects name="objects">
     <object>objects\objAndGate1</object>
     <object>objects\objOrGate</object>
