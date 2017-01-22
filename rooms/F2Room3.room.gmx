@@ -3,8 +3,8 @@
   <caption></caption>
   <width>512</width>
   <height>512</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -56,12 +56,13 @@
     <instance objName="objSwitch3" x="240" y="48" name="inst_E0143D30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSwitch4" x="336" y="48" name="inst_7E6B282F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSwitch5" x="432" y="48" name="inst_38AABF4E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objAndGate1" x="128" y="240" name="inst_3B117DE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objOrGate" x="320" y="304" name="inst_4EFBB39A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objAndGate1" x="288" y="368" name="inst_610FE034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objAndGate1" x="320" y="432" name="inst_4B94DF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAndGate1" x="147" y="246" name="inst_3B117DE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objOrGate" x="339" y="310" name="inst_4EFBB39A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAndGate1" x="307" y="374" name="inst_610FE034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAndGate1" x="339" y="438" name="inst_4B94DF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayer" x="96" y="400" name="inst_52BA519A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLight" x="304" y="496" name="inst_AA9F7172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objXOR" x="147" y="310" name="inst_6A335B3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="64" y="64" w="32" h="32" xo="0" yo="32" id="10000720" name="inst_1FCA6496" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
