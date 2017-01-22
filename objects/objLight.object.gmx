@@ -164,6 +164,10 @@ else
 break;
 
 case F3Room1://Floor 2 Room 4 
+objAnswer1.Total=objRes1.resistor
+objAnswer2.Total=objRes1.resistor+objRes2.resistor
+
+
 if 
 {
     action_sprite_set(Light_Green, 0, 1)

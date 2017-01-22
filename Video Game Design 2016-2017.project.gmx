@@ -73,8 +73,10 @@
     <object>objects\objAnswer1</object>
     <object>objects\objAnswer2</object>
     <object>objects\objAnswer3</object>
-    <object>objects\objAmswer4</object>
+    <object>objects\objAnswer4</object>
     <object>objects\objAnswer5</object>
+    <object>objects\objAnswer6</object>
+    <object>objects\objAnswer7</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
