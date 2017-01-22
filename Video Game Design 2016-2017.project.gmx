@@ -70,6 +70,7 @@
     <object>objects\objRes6</object>
     <object>objects\objRes7</object>
     <object>objects\objRes8</object>
+    <object>objects\objRes9</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
