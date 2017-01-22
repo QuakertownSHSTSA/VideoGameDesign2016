@@ -55,6 +55,7 @@
     <instance objName="objRes2" x="172" y="77" name="inst_920205A9" locked="0" code="" scaleX="1.14285719394684" scaleY="1.16666662693024" colour="4294967295" rotation="0"/>
     <instance objName="objAnswer1" x="40" y="8" name="inst_AA63A0A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAnswer2" x="168" y="8" name="inst_5997C716" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPlayer" x="176" y="174" name="inst_CA481F69" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="96" y="128" w="32" h="32" xo="64" yo="224" id="10000982" name="inst_778849A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
