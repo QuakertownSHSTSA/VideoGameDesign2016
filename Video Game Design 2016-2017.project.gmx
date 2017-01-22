@@ -36,6 +36,9 @@
     <background>background\Tileset_Lab</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objAndGate1</object>
     <object>objects\objOrGate</object>
