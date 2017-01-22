@@ -125,7 +125,7 @@
         <arguments>
           <argument>
             <kind>5</kind>
-            <sprite>sprCharacter_Male_up</sprite>
+            <sprite>sprCharacter_Male_Up</sprite>
           </argument>
           <argument>
             <kind>0</kind>

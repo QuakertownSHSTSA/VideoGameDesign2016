@@ -20,6 +20,6 @@
   <width>40</width>
   <height>12</height>
   <frames>
-    <frame index="0">images\sprAndGate_0.png</frame>
+    <frame index="0">images\sprXOrGate_0.png</frame>
   </frames>
 </sprite>
