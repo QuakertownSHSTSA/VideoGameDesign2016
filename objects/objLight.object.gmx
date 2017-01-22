@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>window_set_size(600,600);
 switch(room)//Switch configuration on level
 {
 case Room1://Floor 1 Room 1 "and intro"
@@ -59,7 +59,7 @@ else
 break;
 
 case Room3://Floor 1 Room 3 
-if (objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1) &amp;&amp; (objSwitch3.IsOn == 1)
+if !(objSwitch1.IsOn == 1) &amp;&amp; !(objSwitch2.IsOn == 1) &amp;&amp; !(objSwitch3.IsOn == 1)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
@@ -88,13 +88,72 @@ else
 
 break;
 
-
 case Room5://Floor 1 Room 5 
 if ( (objSwitch1.IsOn == 1) || !(objSwitch2.IsOn == 1) || (objSwitch3.IsOn == 1) ) &amp;&amp; ( (objSwitch3.IsOn == 1) &amp;&amp; !(objSwitch4.IsOn == 1) &amp;&amp; (objSwitch5.IsOn == 1) )
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
     room_goto(F2Room1)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F2Room1://Floor 2 Room 1 
+if ( (objSwitch1.IsOn == 1) ^^ (objSwitch2.IsOn == 1) )
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F2Room2)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F2Room2://Floor 2 Room 2
+if (((objSwitch1.IsOn == 1) ^^ (objSwitch2.IsOn == 1)) &amp;&amp; (objSwitch3.IsOn == 1)) &amp;&amp; ((objSwitch3.IsOn == 1)  ^^ ((objSwitch3.IsOn == 1) &amp;&amp; (objSwitch4.IsOn == 1)))
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F2Room3)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F2Room3://Floor 2 Room 3 
+if (((!(objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1)) ^^ (objSwitch3.IsOn == 1)) &amp;&amp; !((objSwitch3.IsOn == 1) || (objSwitch4.IsOn == 1))) &amp;&amp; (objSwitch5.IsOn == 1)
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F2Room4)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F2Room4://Floor 2 Room 4 
+if ((!(objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1) &amp;&amp; !(objSwitch3.IsOn == 1)) &amp;&amp; (!(objSwitch3.IsOn == 1) || (objSwitch4.IsOn == 1))) &amp;&amp; ((objSwitch5.IsOn == 1) ^^ (objSwitch6.IsOn == 1))
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F3Room1)
 }
 else
 {
