@@ -45,7 +45,6 @@
     <background>background\Tileset_Lab</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\objAndGate1</object>
     <object>objects\objOrGate</object>
@@ -73,7 +72,7 @@
       <room>rooms\F2Room4</room>
     </rooms>
     <rooms name="Floor 3">
-      <room>rooms\F3Floor1</room>
+      <room>rooms\F3Room1</room>
       <room>rooms\F3Room2</room>
       <room>rooms\F3Room3</room>
       <room>rooms\F3Room4</room>
