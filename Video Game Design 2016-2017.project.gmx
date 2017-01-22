@@ -40,6 +40,11 @@
     <sprite>sprites\sprXOrGate</sprite>
     <sprite>sprites\sprSwitchOff</sprite>
     <sprite>sprites\sprSwitchOn</sprite>
+    <sprite>sprites\sprResBlue</sprite>
+    <sprite>sprites\sprResYellow</sprite>
+    <sprite>sprites\sprResGreen</sprite>
+    <sprite>sprites\sprResPurple</sprite>
+    <sprite>sprites\sprResRed</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
@@ -48,6 +53,7 @@
   <objects name="objects">
     <object>objects\objAndGate1</object>
     <object>objects\objOrGate</object>
+    <object>objects\objXOR</object>
     <object>objects\objLight</object>
     <object>objects\objSwitch1</object>
     <object>objects\objSwitch2</object>
@@ -56,6 +62,14 @@
     <object>objects\objSwitch5</object>
     <object>objects\objSwitch6</object>
     <object>objects\objPlayer</object>
+    <object>objects\objRes1</object>
+    <object>objects\objRes2</object>
+    <object>objects\objRes3</object>
+    <object>objects\objRes4</object>
+    <object>objects\objRes5</object>
+    <object>objects\objRes6</object>
+    <object>objects\objRes7</object>
+    <object>objects\objRes8</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
