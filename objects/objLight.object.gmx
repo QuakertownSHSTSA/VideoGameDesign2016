@@ -158,7 +158,7 @@ if ((!(objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1) &amp;&amp; !(objS
 else
 {
     action_sprite_set(Light_Red, 0, 1)
-    LevelComplete = false
+    LevelComplete = false//TEST
 }
 
 break;
