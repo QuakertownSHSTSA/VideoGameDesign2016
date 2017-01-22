@@ -168,7 +168,7 @@ objAnswer1.Total=objRes1.resistor
 objAnswer2.Total=objRes1.resistor+objRes2.resistor
 
 
-if 
+if (objAnswer1==10 &amp;&amp; objAnswer2==15)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
