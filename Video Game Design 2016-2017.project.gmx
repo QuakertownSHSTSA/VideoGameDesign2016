@@ -18,9 +18,17 @@
     </sprites>
     <sprites name="character">
       <sprite>sprites\sprCharacter_Male_Right</sprite>
+      <sprite>sprites\sprCharacter_Male_Right_2</sprite>
+      <sprite>sprites\sprCharacter_Male_Right_3</sprite>
       <sprite>sprites\sprCharacter_Male_Left</sprite>
+      <sprite>sprites\sprCharacter_Male_Left_2</sprite>
+      <sprite>sprites\sprCharacter_Male_Left_3</sprite>
       <sprite>sprites\sprCharacter_Male_Down</sprite>
-      <sprite>sprites\sprCharacter_Male_up</sprite>
+      <sprite>sprites\sprCharacter_Male_Down_2</sprite>
+      <sprite>sprites\sprCharacter_Male_Down_3</sprite>
+      <sprite>sprites\sprCharacter_Male_Up</sprite>
+      <sprite>sprites\sprCharacter_Male_Up_2</sprite>
+      <sprite>sprites\sprCharacter_Male_Up_3</sprite>
     </sprites>
     <sprites name="Gates">
       <sprite>sprites\Light_Green</sprite>
@@ -29,8 +37,9 @@
     </sprites>
     <sprite>sprites\sprAndGate</sprite>
     <sprite>sprites\sprOrGate</sprite>
-    <sprite>sprites\sprSwitchOn</sprite>
+    <sprite>sprites\sprXOrGate</sprite>
     <sprite>sprites\sprSwitchOff</sprite>
+    <sprite>sprites\sprSwitchOn</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
