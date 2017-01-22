@@ -3,8 +3,8 @@
   <caption></caption>
   <width>512</width>
   <height>512</height>
-  <vsnap>1</vsnap>
-  <hsnap>1</hsnap>
+  <vsnap>8</vsnap>
+  <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -56,6 +56,11 @@
     <instance objName="objRes3" x="172" y="205" name="inst_3AB01209" locked="0" code="" scaleX="1.125" scaleY="1.13999998569489" colour="4294967295" rotation="0"/>
     <instance objName="objRes4" x="332" y="141" name="inst_B14785E5" locked="0" code="" scaleX="1.125" scaleY="1.14285719394684" colour="4294967295" rotation="0"/>
     <instance objName="objRes5" x="396" y="141" name="inst_0EE1F3EB" locked="0" code="" scaleX="1.125" scaleY="1.14285719394684" colour="4294967295" rotation="0"/>
+    <instance objName="objAnswer1" x="168" y="104" name="inst_3320D36E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAnswer2" x="232" y="104" name="inst_57FF9A09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAnswer3" x="328" y="72" name="inst_5EAA64C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAnswer4" x="392" y="72" name="inst_C3B276CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objAnswer5" x="456" y="72" name="inst_41C4B2D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="256" y="384" w="32" h="32" xo="128" yo="224" id="10001062" name="inst_7569F591" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
