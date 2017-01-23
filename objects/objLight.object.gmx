@@ -35,7 +35,7 @@ if (objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
-    room_goto(F3Room1)
+    room_goto(F3Room3)
     //room_goto(Room2)
 }
 else
@@ -197,6 +197,27 @@ if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
     room_goto(F3Room3)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F3Room3://Floor 3 Room 3
+objAnswer1.Total=objRes2.resistor+objRes4.resistor
+objAnswer2.Total=objRes1.resistor+objRes2.resistor
+objAnswer3.Total=objRes3.resistor+objRes5.resistor+objRes7.resistor+objRes8.resistor
+objAnswer4.Total=objRes3.resistor+objRes6.resistor+objRes5.resistor
+objAnswer5.Total=objRes3.resistor+objRes5.resistor+objRes5.resistor+objRes7.resistor+objRes8.resistor+objRes9.resistor
+
+if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F3Room4)
 }
 else
 {
