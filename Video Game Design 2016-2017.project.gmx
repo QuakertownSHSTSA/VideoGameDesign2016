@@ -45,12 +45,14 @@
     <sprite>sprites\sprResGreen</sprite>
     <sprite>sprites\sprResPurple</sprite>
     <sprite>sprites\sprResRed</sprite>
-    <sprite>sprites\sprAnswer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scrAnswer.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fntArial</font>
   </fonts>

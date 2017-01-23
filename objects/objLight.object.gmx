@@ -2,7 +2,7 @@
 <object>
   <spriteName>Light_Red</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>window_set_size(600,600);
+            <string>window_set_size(1024,768)
+surface_resize(application_surface, 1024, 768)
+texture_set_interpolation(false)
 switch(room)//Switch configuration on level
 {
 case Room1://Floor 1 Room 1 "and intro"
@@ -168,11 +170,33 @@ objAnswer1.Total=objRes1.resistor
 objAnswer2.Total=objRes1.resistor+objRes2.resistor
 
 
-if (objAnswer1==10 &amp;&amp; objAnswer2==15)
+if (objAnswer1.Total==10 &amp;&amp; objAnswer2.Total==15)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
     room_goto(F3Room2)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F3Room2://Floor 3 Room 2
+objAnswer1.Total=objRes1.resistor+objRes4.resistor
+objAnswer2.Total=objRes1.resistor
+objAnswer3.Total=objRes2.resistor+objRes3.resistor
+objAnswer4.Total=objRes6.resistor
+objAnswer5.Total=objRes6.resistor+objRes7.resistor
+objAnswer6.Total=objRes5.resistor+objRes2.resistor
+
+if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F3Room3)
 }
 else
 {
