@@ -48,6 +48,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
