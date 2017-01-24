@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>window_set_size(1024,768)
-surface_resize(application_surface, 1024, 768)
+            <string>window_set_size(512,512)
+surface_resize(application_surface, 1024, 1024)
 texture_set_interpolation(false)
 switch(room)//Switch configuration on level
 {
@@ -207,11 +207,34 @@ else
 break;
 
 case F3Room3://Floor 3 Room 3
-objAnswer1.Total=objRes2.resistor+objRes4.resistor
-objAnswer2.Total=objRes1.resistor+objRes2.resistor
-objAnswer3.Total=objRes3.resistor+objRes5.resistor+objRes7.resistor+objRes8.resistor
-objAnswer4.Total=objRes3.resistor+objRes6.resistor+objRes5.resistor
-objAnswer5.Total=objRes3.resistor+objRes5.resistor+objRes5.resistor+objRes7.resistor+objRes8.resistor+objRes9.resistor
+objAnswer1.Total=objRes1.resistor+objRes3.resistor
+objAnswer2.Total=objRes3.resistor
+objAnswer3.Total=objRes1.resistor+objRes2.resistor+objRes4.resistor
+objAnswer4.Total=objRes1.resistor+objRes2.resistor+objRes5.resistor
+objAnswer5.Total=objRes2.resistor+objRes4.resistor+objRes5.resistor
+
+
+if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F3Room3)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F3Room4://Floor 3 Room 4
+objAnswer1.Total=objRes1.resistor+objRes4.resistor
+objAnswer2.Total=objRes1.resistor
+objAnswer3.Total=objRes2.resistor+objRes3.resistor
+objAnswer4.Total=objRes6.resistor
+objAnswer5.Total=objRes6.resistor+objRes7.resistor
+objAnswer6.Total=objRes5.resistor+objRes2.resistor
 
 if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
 {
