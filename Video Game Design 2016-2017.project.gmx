@@ -45,6 +45,7 @@
     <sprite>sprites\sprResGreen</sprite>
     <sprite>sprites\sprResPurple</sprite>
     <sprite>sprites\sprResRed</sprite>
+    <sprite>sprites\sprPlayerShot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
@@ -85,6 +86,7 @@
     <object>objects\objAnswer5</object>
     <object>objects\objAnswer6</object>
     <object>objects\objAnswer7</object>
+    <object>objects\objPlayerShot</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
