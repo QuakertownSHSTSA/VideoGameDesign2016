@@ -35,7 +35,7 @@ if (objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
-    room_goto(F3Room3)
+    room_goto(Room2)
     //room_goto(Room2)
 }
 else
@@ -240,7 +240,30 @@ if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
-    room_goto(F3Room4)
+    room_goto(F4Room1)
+}
+else
+{
+    action_sprite_set(Light_Red, 0, 1)
+    LevelComplete = false
+}
+
+break;
+
+case F4Room1://Floor 3 Room 4
+objAnswer1.Total=objRes1.resistor+objRes4.resistor+objRes5.resistor
+objAnswer2.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes8.resistor+objRes6.resistor
+objAnswer3.Total=objRes1.resistor+objRes3.resistor
+objAnswer4.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor
+objAnswer5.Total=objRes1.resistor+objRes7.resistor
+objAnswer6.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes8.resistor
+objAnswer7.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes9.resistor
+
+if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+{
+    action_sprite_set(Light_Green, 0, 1)
+    LevelComplete = true
+    room_goto(F4Room1)
 }
 else
 {
