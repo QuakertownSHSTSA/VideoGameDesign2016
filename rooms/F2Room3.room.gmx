@@ -61,7 +61,7 @@
     <instance objName="objAndGate1" x="307" y="374" name="inst_610FE034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAndGate1" x="339" y="438" name="inst_4B94DF90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objPlayer" x="96" y="400" name="inst_52BA519A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objLight" x="304" y="496" name="inst_AA9F7172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objLight" x="309" y="468" name="inst_AA9F7172" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objXOR" x="147" y="310" name="inst_6A335B3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
