@@ -46,6 +46,7 @@
     <sprite>sprites\sprResPurple</sprite>
     <sprite>sprites\sprResRed</sprite>
     <sprite>sprites\sprPlayerShot</sprite>
+    <sprite>sprites\sprCursor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
