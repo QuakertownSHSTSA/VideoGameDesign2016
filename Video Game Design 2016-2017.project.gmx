@@ -40,6 +40,11 @@
     <sprite>sprites\sprResRed</sprite>
     <sprite>sprites\sprPlayerShot</sprite>
     <sprite>sprites\sprCursor</sprite>
+    <sprites name="doors">
+      <sprite>sprites\spr_door_1</sprite>
+      <sprite>sprites\spr_door_2</sprite>
+    </sprites>
+    <sprite>sprites\spr_Junk</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
