@@ -40,6 +40,7 @@
     <sprite>sprites\sprResRed</sprite>
     <sprite>sprites\sprPlayerShot</sprite>
     <sprite>sprites\sprCursor</sprite>
+    <sprite>sprites\sprEnemyShot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
@@ -81,7 +82,10 @@
     <object>objects\objAnswer6</object>
     <object>objects\objAnswer7</object>
     <object>objects\objPlayerShot</object>
+    <object>objects\objRobot1</object>
+    <object>objects\objEnemyShot</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <rooms name="Floor 1">
       <room>rooms\Room1</room>
