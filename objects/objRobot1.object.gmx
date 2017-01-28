@@ -78,7 +78,7 @@
           <argument>
             <kind>1</kind>
             <string>move_towards_point(objPlayer.x, objPlayer.y, 2.5)
-if alarm[0] == 0
+if alarm[0] == 0 || alarm[0] == -1
 {
     alarm[0] = 30
 }
