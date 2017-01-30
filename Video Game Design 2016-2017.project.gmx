@@ -84,6 +84,7 @@
     <object>objects\objPlayerShot</object>
     <object>objects\objRobot1</object>
     <object>objects\objEnemyShot</object>
+    <object>objects\objRobotSpawner</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Floor 1">
