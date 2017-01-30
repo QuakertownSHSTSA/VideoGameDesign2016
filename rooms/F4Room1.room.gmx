@@ -51,6 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
+    <instance objName="objPlayer" x="232" y="400" name="inst_EC01644D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRes1" x="172" y="365" name="inst_87AC810C" locked="0" code="" scaleX="1.125" scaleY="1.14285719394684" colour="4294967295" rotation="0"/>
     <instance objName="objRes2" x="364" y="333" name="inst_12E5B965" locked="0" code="" scaleX="1.125" scaleY="1.14285719394684" colour="4294967295" rotation="0"/>
     <instance objName="objRes3" x="76" y="269" name="inst_06AEC0B8" locked="0" code="" scaleX="1.12999999523163" scaleY="1.14285719394684" colour="4294967295" rotation="0"/>
@@ -68,7 +69,7 @@
     <instance objName="objAnswer6" x="424" y="136" name="inst_CB4F040F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAnswer7" x="200" y="72" name="inst_CFF30C58" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLight" x="336" y="112" name="inst_14916C38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayer" x="232" y="400" name="inst_EC01644D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRobotSpawner" x="64" y="192" name="inst_C9096533" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="160" y="416" w="32" h="32" xo="128" yo="224" id="10001212" name="inst_563FE117" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

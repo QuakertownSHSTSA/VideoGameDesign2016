@@ -51,13 +51,14 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
+    <instance objName="objPlayer" x="208" y="208" name="inst_92A222A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAndGate1" x="115" y="150" name="inst_93D2E87B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAndGate1" x="115" y="214" name="inst_378815B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSwitch1" x="80" y="16" name="inst_E9094237" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSwitch2" x="144" y="16" name="inst_5DAD645A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSwitch3" x="208" y="16" name="inst_96418C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLight" x="87" y="245" name="inst_1ECB0C24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objPlayer" x="208" y="208" name="inst_92A222A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRobotSpawner" x="38" y="102" name="inst_D039F91B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="64" y="64" w="32" h="32" xo="96" yo="96" id="10000527" name="inst_02634ED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
