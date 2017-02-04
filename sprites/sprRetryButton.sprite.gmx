@@ -20,6 +20,6 @@
   <width>245</width>
   <height>117</height>
   <frames>
-    <frame index="0">images\sprExitButton_0.png</frame>
+    <frame index="0">images\sprRetryButton_0.png</frame>
   </frames>
 </sprite>
