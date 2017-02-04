@@ -41,6 +41,7 @@
     <sprite>sprites\sprPlayerShot</sprite>
     <sprite>sprites\sprCursor</sprite>
     <sprite>sprites\sprEnemyShot</sprite>
+    <sprite>sprites\sprStartButton</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
@@ -85,8 +86,10 @@
     <object>objects\objRobot1</object>
     <object>objects\objEnemyShot</object>
     <object>objects\objRobotSpawner</object>
+    <object>objects\objStartButton</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Main_Menu</room>
     <rooms name="Floor 1">
       <room>rooms\Room1</room>
       <room>rooms\Room2</room>
