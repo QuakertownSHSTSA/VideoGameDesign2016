@@ -85,32 +85,8 @@
     <object>objects\objRobot1</object>
     <object>objects\objEnemyShot</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
-    <rooms name="Floor 1">
-      <room>rooms\Room1</room>
-      <room>rooms\Room2</room>
-      <room>rooms\Room3</room>
-      <room>rooms\Room4</room>
-      <room>rooms\Room5</room>
-    </rooms>
-    <rooms name="Floor 2">
-      <room>rooms\F2Room1</room>
-      <room>rooms\F2Room3</room>
-      <room>rooms\F2Room2</room>
-      <room>rooms\F2Room4</room>
-    </rooms>
-    <rooms name="Floor 3">
-      <room>rooms\F3Room1</room>
-      <room>rooms\F3Room2</room>
-      <room>rooms\F3Room3</room>
-      <room>rooms\F3Room4</room>
-    </rooms>
-    <rooms name="Floor 4">
-      <room>rooms\F4Room1</room>
-      <room>rooms\F4Room2</room>
-      <room>rooms\F4Romm3</room>
-    </rooms>
+    <rooms name="Floor 1"/>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

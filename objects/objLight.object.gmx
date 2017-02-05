@@ -192,7 +192,7 @@ objAnswer4.Total=objRes6.resistor
 objAnswer5.Total=objRes6.resistor+objRes7.resistor
 objAnswer6.Total=objRes5.resistor+objRes2.resistor
 
-if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+if (objAnswer1.Total==50 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==10 &amp;&amp; objAnswer4.Total==50 &amp;&amp; objAnswer5.Total==70 &amp;&amp; objAnswer6.Total==35)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
