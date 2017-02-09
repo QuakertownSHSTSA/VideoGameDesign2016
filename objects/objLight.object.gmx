@@ -192,7 +192,7 @@ objAnswer4.Total=objRes6.resistor
 objAnswer5.Total=objRes6.resistor+objRes7.resistor
 objAnswer6.Total=objRes5.resistor+objRes2.resistor
 
-if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+if (objAnswer1.Total==50 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==10 &amp;&amp; objAnswer4.Total==50 &amp;&amp; objAnswer5.Total==70 &amp;&amp; objAnswer5.Total==35)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
@@ -214,7 +214,7 @@ objAnswer4.Total=objRes1.resistor+objRes2.resistor+objRes5.resistor
 objAnswer5.Total=objRes2.resistor+objRes4.resistor+objRes5.resistor
 
 
-if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+if (objAnswer1.Total==15 &amp;&amp; objAnswer2.Total==40 &amp;&amp; objAnswer3.Total==60 &amp;&amp; objAnswer4.Total==20 &amp;&amp; objAnswer5.Total==65)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
@@ -236,7 +236,7 @@ objAnswer4.Total=objRes6.resistor
 objAnswer5.Total=objRes6.resistor+objRes7.resistor
 objAnswer6.Total=objRes5.resistor+objRes2.resistor
 
-if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+if (objAnswer1.Total==70 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==60 &amp;&amp; objAnswer4.Total==30 &amp;&amp; objAnswer5.Total==50)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true

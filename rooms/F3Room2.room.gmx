@@ -66,7 +66,6 @@
     <instance objName="objAnswer5" x="392" y="136" name="inst_E31E4F33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objAnswer6" x="72" y="104" name="inst_B555F9FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLight" x="256" y="104" name="inst_1C1860C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objAndGate1" x="240" y="200" name="inst_AA843431" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRobotSpawner" x="56" y="200" name="inst_317AE4C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
