@@ -250,7 +250,7 @@ else
 
 break;
 
-case F4Room1://Floor 3 Room 4
+case F4Room1://Floor 4 Room 1
 objAnswer1.Total=objRes1.resistor+objRes4.resistor+objRes5.resistor
 objAnswer2.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes8.resistor+objRes6.resistor
 objAnswer3.Total=objRes1.resistor+objRes3.resistor
@@ -259,7 +259,7 @@ objAnswer5.Total=objRes1.resistor+objRes7.resistor
 objAnswer6.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes8.resistor
 objAnswer7.Total=objRes1.resistor+objRes4.resistor*2+objRes5.resistor+objRes2.resistor+objRes9.resistor
 
-if (objAnswer1.Total==25 &amp;&amp; objAnswer2.Total==15)
+if (objAnswer1.Total==15 &amp;&amp; objAnswer2.Total==90 &amp;&amp; objAnswer3.Total==55 &amp;&amp; objAnswer4.Total==30 &amp;&amp; objAnswer5.Total==15 &amp;&amp; objAnswer6.Total==40 &amp;&amp; objAnswer7.Total==80)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
