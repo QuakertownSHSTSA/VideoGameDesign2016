@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sndHarmfulOrFatal</sound>
+    <sound>sound\sndLazerBlast</sound>
+    <sound>sound\sndGrunt</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Robots">
       <sprite>sprites\sprRobot1Down</sprite>
@@ -44,6 +48,7 @@
     <sprite>sprites\sprStartButton</sprite>
     <sprite>sprites\sprExitButton</sprite>
     <sprite>sprites\sprRetryButton</sprite>
+    <sprite>sprites\sprEnd</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Tileset_Lab</background>
@@ -91,6 +96,7 @@
     <object>objects\objStartButton</object>
     <object>objects\objExitButton</object>
     <object>objects\objRestartButton</object>
+    <object>objects\objEnd</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>
@@ -117,6 +123,7 @@
       <room>rooms\F4Room1</room>
       <room>rooms\F4Room2</room>
       <room>rooms\F4Romm3</room>
+      <room>rooms\EndRoom</room>
     </rooms>
   </rooms>
   <help>

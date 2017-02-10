@@ -66,7 +66,7 @@ if 3 &lt;= Wave
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>2700</string>
+            <string>30</string>
           </argument>
           <argument>
             <kind>4</kind>
