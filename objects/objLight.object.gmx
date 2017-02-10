@@ -218,7 +218,7 @@ if (objAnswer1.Total==15 &amp;&amp; objAnswer2.Total==40 &amp;&amp; objAnswer3.T
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
-    room_goto(F3Room3)
+    room_goto(F3Room4)
 }
 else
 {
