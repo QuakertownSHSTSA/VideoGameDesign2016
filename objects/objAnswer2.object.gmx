@@ -75,6 +75,52 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_font(fntArial)
+draw_set_color(c_blue)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+switch(room)
+{
+    case F3Room1:   //Floor 3 Room 1
+        draw_text_ext(x+5,y+30,"15",2,25)
+    break;
+    
+    case F3Room2: //Floor 3 Room 2
+        draw_text_ext(x+5,y+30,"30",2,25)
+    break;
+    
+    case F3Room3: //Floor 3 Room 3
+        draw_text_ext(x+5,y+30,"10",2,25)
+    break;
+    
+    case F3Room4: //Floor 3 Room 4
+        draw_text_ext(x+5,y+30,"30",2,25)
+    break;
+    
+    case F4Room1: //Floor 4 Room 1
+        draw_text_ext(x+5,y+30,"90",2,25)
+    break;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
   </events>
   <PhysicsObject>0</PhysicsObject>

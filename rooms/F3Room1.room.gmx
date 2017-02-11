@@ -57,7 +57,7 @@
     <instance objName="objAnswer1" x="40" y="11" name="inst_AA63A0A1" locked="0" code="" scaleX="1.19047617912292" scaleY="1.19000005722046" colour="4294967295" rotation="0"/>
     <instance objName="objAnswer2" x="168" y="11" name="inst_5997C716" locked="0" code="" scaleX="1.19047617912292" scaleY="1.19047617912292" colour="4294967295" rotation="0"/>
     <instance objName="objLight" x="121" y="51" name="inst_7CF837FC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRobotSpawner" x="27" y="61" name="inst_577ABE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRobotSpawner" x="0" y="64" name="inst_577ABE57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Tileset_Lab" x="96" y="128" w="32" h="32" xo="64" yo="224" id="10000982" name="inst_778849A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -67,8 +67,6 @@
     <tile bgName="Tileset_Lab" x="96" y="96" w="32" h="32" xo="0" yo="128" id="10000988" name="inst_75DA4CB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="128" y="96" w="32" h="32" xo="0" yo="224" id="10000989" name="inst_0F92A8EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="160" y="96" w="32" h="32" xo="32" yo="160" id="10000990" name="inst_81FBD4BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tileset_Lab" x="160" y="32" w="32" h="32" xo="32" yo="224" id="10000991" name="inst_6FEDF571" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="Tileset_Lab" x="32" y="32" w="32" h="32" xo="32" yo="224" id="10000992" name="inst_04320228" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="32" y="64" w="32" h="32" xo="32" yo="224" id="10000993" name="inst_FB58EA1B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="32" y="96" w="32" h="32" xo="32" yo="224" id="10000994" name="inst_50503418" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="32" y="128" w="32" h="32" xo="0" yo="160" id="10000995" name="inst_3EAEDED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -124,6 +122,8 @@
     <tile bgName="Tileset_Lab" x="192" y="32" w="32" h="32" xo="0" yo="0" id="10002695" name="inst_E2F1D023" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="224" y="0" w="32" h="32" xo="0" yo="0" id="10002696" name="inst_4298733F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="Tileset_Lab" x="224" y="32" w="32" h="32" xo="64" yo="32" id="10002698" name="inst_03998AE7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tileset_Lab" x="32" y="32" w="32" h="32" xo="32" yo="192" id="10005863" name="inst_7A0F367E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tileset_Lab" x="160" y="32" w="32" h="32" xo="32" yo="192" id="10005864" name="inst_A0EE7E5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -97,6 +97,7 @@
     <object>objects\objExitButton</object>
     <object>objects\objRestartButton</object>
     <object>objects\objEnd</object>
+    <object>objects\objClock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Main_Menu</room>

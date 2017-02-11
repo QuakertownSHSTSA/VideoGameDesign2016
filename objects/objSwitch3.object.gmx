@@ -8,6 +8,37 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if IsOn = 1
+{
+    action_sprite_set(sprSwitchOn,0,1)
+}
+
+if IsOn = 0
+{
+    action_sprite_set(sprSwitchOff,0,1)
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="objPlayer">
       <action>
         <libid>1</libid>
@@ -28,13 +59,11 @@
             <string>if keyboard_check_released(vk_space) &amp;&amp; IsOn == 0
 {
     IsOn = 1
-    action_sprite_set(sprSwitchOn,0,1)
 }
 
 else if keyboard_check_released(vk_space) &amp;&amp; IsOn == 1
 {
     IsOn = 0
-    action_sprite_set(sprSwitchOff,0,1)
 }
 </string>
           </argument>
@@ -44,9 +73,9 @@ else if keyboard_check_released(vk_space) &amp;&amp; IsOn == 1
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
-        <id>611</id>
-        <kind>6</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
         <exetype>2</exetype>
@@ -58,11 +87,15 @@ else if keyboard_check_released(vk_space) &amp;&amp; IsOn == 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>IsOn</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
+            <string>if(room == Room3)
+{
+    IsOn = 1
+}
+else
+{
+    IsOn = 0
+}
+</string>
           </argument>
         </arguments>
       </action>

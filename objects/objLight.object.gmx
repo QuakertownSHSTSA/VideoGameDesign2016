@@ -59,7 +59,7 @@ else
 
 break;
 
-case Room3://Floor 1 Room 3 
+case Room3://Floor 1 Room 3
 if !(objSwitch1.IsOn == 1) &amp;&amp; !(objSwitch2.IsOn == 1) &amp;&amp; !(objSwitch3.IsOn == 1)
 {
     action_sprite_set(Light_Green, 0, 1)
@@ -149,7 +149,7 @@ else
 
 break;
 
-case F2Room4://Floor 2 Room 4 
+case F2Room4://Floor 2 Room 4
 if ((!(objSwitch1.IsOn == 1) &amp;&amp; (objSwitch2.IsOn == 1) &amp;&amp; !(objSwitch3.IsOn == 1)) &amp;&amp; (!(objSwitch3.IsOn == 1) || (objSwitch4.IsOn == 1))) &amp;&amp; ((objSwitch5.IsOn == 1) ^^ (objSwitch6.IsOn == 1))
 {
     action_sprite_set(Light_Green, 0, 1)
@@ -191,7 +191,7 @@ objAnswer4.Total=objRes6.resistor
 objAnswer5.Total=objRes6.resistor+objRes7.resistor
 objAnswer6.Total=objRes5.resistor+objRes2.resistor
 
-if (objAnswer1.Total==50 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==10 &amp;&amp; objAnswer4.Total==50 &amp;&amp; objAnswer5.Total==70 &amp;&amp; objAnswer5.Total==35)
+if (objAnswer1.Total==50 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==10 &amp;&amp; objAnswer4.Total==50 &amp;&amp; objAnswer5.Total==70 &amp;&amp; objAnswer6.Total==35)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
@@ -213,7 +213,7 @@ objAnswer4.Total=objRes1.resistor+objRes2.resistor+objRes5.resistor
 objAnswer5.Total=objRes2.resistor+objRes4.resistor+objRes5.resistor
 
 
-if (objAnswer1.Total==15 &amp;&amp; objAnswer2.Total==40 &amp;&amp; objAnswer3.Total==60 &amp;&amp; objAnswer4.Total==20 &amp;&amp; objAnswer5.Total==65)
+if (objAnswer1.Total==15 &amp;&amp; objAnswer2.Total==10 &amp;&amp; objAnswer3.Total==60 &amp;&amp; objAnswer4.Total==20 &amp;&amp; objAnswer5.Total==65)
 {
     action_sprite_set(Light_Green, 0, 1)
     LevelComplete = true
@@ -228,12 +228,11 @@ else
 break;
 
 case F3Room4://Floor 3 Room 4
-objAnswer1.Total=objRes1.resistor+objRes4.resistor
-objAnswer2.Total=objRes1.resistor
-objAnswer3.Total=objRes2.resistor+objRes3.resistor
-objAnswer4.Total=objRes6.resistor
-objAnswer5.Total=objRes6.resistor+objRes7.resistor
-objAnswer6.Total=objRes5.resistor+objRes2.resistor
+objAnswer1.Total=objRes2.resistor+objRes4.resistor+objRes2.resistor
+objAnswer2.Total=objRes1.resistor+objRes2.resistor
+objAnswer3.Total=objRes5.resistor+objRes3.resistor+objRes7.resistor+objRes8.resistor+objRes6.resistor
+objAnswer4.Total=objRes6.resistor+objRes5.resistor+objRes3.resistor
+objAnswer5.Total=objRes5.resistor+objRes3.resistor+objRes7.resistor+objRes8.resistor+objRes9.resistor
 
 if (objAnswer1.Total==70 &amp;&amp; objAnswer2.Total==30 &amp;&amp; objAnswer3.Total==60 &amp;&amp; objAnswer4.Total==30 &amp;&amp; objAnswer5.Total==50)
 {
