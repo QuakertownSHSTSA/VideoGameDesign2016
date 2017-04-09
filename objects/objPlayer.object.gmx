@@ -55,8 +55,21 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x=clamp(x, 0, room_width);
-y=clamp(y, 0, room_height);
+            <string>switch(room)
+{
+    case Room1:
+        x = clamp(x, 143, 368);
+        y = clamp(y, 150,362);
+        break;
+    case Room2:
+        x = clamp(x, 143, 344);
+        y = clamp(y, 150,362);
+        break; 
+    case Room3:
+        x = clamp(x, 143, 344);
+        y = clamp(y, 150,362);
+        break;
+}
 </string>
           </argument>
         </arguments>
