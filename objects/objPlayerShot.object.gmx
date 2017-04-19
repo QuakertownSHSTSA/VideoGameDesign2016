@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = point_direction(x,y,mouse_x,mouse_y)
+            <string>
+image_angle = point_direction(x,y,objPlayer.TargetX,objPlayer.TargetY)
 </string>
           </argument>
         </arguments>
@@ -46,11 +47,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>mouse_x</string>
+            <string>objPlayer.TargetX</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>mouse_y</string>
+            <string>objPlayer.TargetY</string>
           </argument>
           <argument>
             <kind>0</kind>
